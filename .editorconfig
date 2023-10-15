@@ -1,0 +1,10 @@
+# Todo arquivo aberto para editar buscar pelo .editorconfig e continua a subir niveis de pasta até encontrar o root = true
+# Fizemos ele na raiz do projeto justamente para que todas as pastast e subpastas cheguem à ele como configuração basica de comportamento
+# Configurações serão transportadas para qualquer um que clonar o repositório
+
+root = true
+
+# Configurando a indentação para seguir o estilo de espaço e ter o temanho equivalente a 2 espaços e que sera aplicado para todos os tipos de arquivo [*]
+[*]
+indent_style = space
+indent_size = 2
