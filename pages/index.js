@@ -1,9 +1,8 @@
 function Home() {
   return (
     <h1>
-      Muito obrigado por ser a pessoa incrível que você é e sempre ser uma otima
-      amiga desde a escola, agradeço muito a Deus por ter você comigo. Saiba que
-      quando precisar eu sempre vou estar aqui ❤️
+      Aproveite o processo pois ele é quem da sentido ao fim aguarde e vera as
+      realizações
     </h1>
   );
 }
