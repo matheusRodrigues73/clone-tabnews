@@ -1,0 +1,8 @@
+#Ele procura por esse arquivo até achar um que declare ser o root como este faz
+root = true
+
+# Isso define que as regras abaixo serao implementadas apenas nesses aruivos.
+# Nesse caso todos com o *
+[*]
+indent_style = space
+indent_size = 2
