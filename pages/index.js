@@ -1,20 +1,32 @@
 function Home() {
   return (
     <>
+      <h1>Caça ao tesouro</h1>
       <p>
-        Siga sempre em frente no caminho que você tem trilhado, sempre estudando
-        bastante, vivendo experiências incríveis e nunca se esquecendo de servir
-        a Cristo. Oro para que Deus esteja cuidando de você, e quando estiver
-        passando por tempos difíceis ou quando tiver problemas, lembre-se disso:
+        Resolva o enigma e ganhe um premio mas cuidado! a cada dia que se passa
+        o premio diminui...
       </p>
       <blockquote>
-        <q>
-          Seja forte e corajoso! Não se apavore nem desânime, pois o Senhor, o
-          seu Deus, estará com você por onde você andar.
-        </q>{" "}
-        Josue 1.9
+        <em>
+          "em minha (carteira azul) guardo meu tesouro às 12 chaves mas ela só
+          fala ingles:
+          <ol>
+            <li>joy</li>
+            <li>(sirene)</li>
+            <li>(habito)</li>
+            <li>moral</li>
+            <li>ketchup</li>
+            <li>(franja)</li>
+            <li>pact</li>
+            <li>(procura)</li>
+            <li>patch</li>
+            <li>(piloto)</li>
+            <li>soccer</li>
+            <li>install</li>
+          </ol>
+          <p>Quem a instalar podera ficar com meu tesouro!"</p>
+        </em>
       </blockquote>
-      <p>Obrigado por separar um tempinho para ler essa menssagem.😉💖</p>
     </>
   );
 }
