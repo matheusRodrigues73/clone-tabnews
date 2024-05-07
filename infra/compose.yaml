@@ -4,4 +4,4 @@ services:
     environment:
       POSTGRES_PASSWORD: "Pac_Legal"
     ports:
-      - "5432:5432"
+      - 5432:5432
