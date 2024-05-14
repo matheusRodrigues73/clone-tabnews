@@ -1,6 +1,6 @@
 // Qualquer endpoint dentro da pasta api usando Next, automaticament de torna uma rota publica da api que terá uma função designada para receber requests do lado de fora e retornar uma response
 
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 export default async function status(request, response) {
   const result = await database.query("SELECT 1 + 1 as sum;");
