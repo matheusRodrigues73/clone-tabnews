@@ -1,2 +1,2 @@
-# tabnews-refresh
-That's only a refresh to my mind about the project
+# Clone-Tabnews
+Building a clone of [tabnews](https://www.tabnews.com.br). check [this link](https://curso.dev).
