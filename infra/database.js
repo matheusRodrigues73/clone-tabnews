@@ -1,4 +1,3 @@
-export const maxDuration = 60;
 import { Client } from "pg";
 
 async function query(queryObject) {
@@ -8,7 +7,7 @@ async function query(queryObject) {
     port: process.env.POSTGRES_PORT,
     database: process.env.POSTGRES_DB,
     password: process.env.POSTGRES_PASSWORD,
-    ssl: process.env.NODE_ENV === "development" ? false : true,
+    ssl: getSSLValues(),
   });
   try {
     await client.connect();
@@ -25,3 +24,11 @@ async function query(queryObject) {
 export default {
   query: query,
 };
+
+function getSSLValues() {
+  if (process.env.POSTGRES_CA) {
+    return { ca: process.env.POSTGRES_CA };
+  }
+
+  return process.env.NODE_ENV === "development" ? false : true;
+}
