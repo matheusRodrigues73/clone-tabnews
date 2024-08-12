@@ -1,1 +1,1 @@
-npx secretlint .
+npm run lint:secretlint:check
